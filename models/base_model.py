@@ -30,20 +30,20 @@ class BaseModel:
 
     def __str__(self):
         """
-           String of class name, id and dictionary 
+        String of class name, id and dictionary
         """
         return "[{}] ({}) {}".format(
             type(self).__name__, self.id, self.__dict__)
 
     def __repr__(self):
         """
-            String representation
+        String representation
         """
         return self.__str__()
 
     def save(self):
         """
-            Update the public instance updated_at to the current one
+        Update the public instance updated_at to the current one
         """
         self.updated_at = datetime.now()
         models.storage.save()
