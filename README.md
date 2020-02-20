@@ -105,5 +105,6 @@ d4eea5f1-1568-4652-a0df-91411c9700cc
 python3 (3.4.3)
 
 ## Authors
-David Bravo Beltran - @dbravo0
-Sergio Quiroga - @Sergioq7777
+
+> - **David Bravo Beltran** - @dbravo0
+> - **Sergio Quiroga** - @Sergioq7777
