@@ -2,7 +2,10 @@
 ''' unit testing for Place class '''
 
 import unittest
+import os
 from models.place import Place
+from models.base_model import BaseModel
+from models.engine.file_storage import FileStorage
 
 
 class TestPlace(unittest.TestCase):

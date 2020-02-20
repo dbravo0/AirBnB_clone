@@ -2,7 +2,10 @@
 ''' unit testing for Amenity class '''
 
 import unittest
+import os
 from models.amenity import Amenity
+from models.base_model import BaseModel
+from models.engine.file_storage import FileStorage
 
 
 class TestAmenity(unittest.TestCase):

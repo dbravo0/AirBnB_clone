@@ -2,7 +2,11 @@
 ''' unit testing for User class '''
 
 import unittest
+import os
+import models
 from models.user import User
+from datetime import datetime
+from models.engine.file_storage import FileStorage
 
 
 class TestUser(unittest.TestCase):

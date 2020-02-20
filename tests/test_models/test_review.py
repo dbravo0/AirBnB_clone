@@ -2,7 +2,10 @@
 ''' unit testing for Review class '''
 
 import unittest
+import os
 from models.review import Review
+from models.base_model import BaseModel
+from models.engine.file_storage import FileStorage
 
 
 class TestReview(unittest.TestCase):

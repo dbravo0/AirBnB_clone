@@ -2,7 +2,10 @@
 ''' unit testing for State class '''
 
 import unittest
+import os
 from models.state import State
+from models.base_model import BaseModel
+from models.engine.file_storage import FileStorage
 
 
 class TestState(unittest.TestCase):

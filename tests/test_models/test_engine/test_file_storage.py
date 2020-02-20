@@ -2,8 +2,10 @@
 ''' unit testing for file storage class '''
 
 import unittest
+import os
 import json
 import models
+from datetime import datetime
 from import_classes import *
 
 
@@ -43,3 +45,6 @@ class TestFileStorage(unittest.TestCase):
 
                 self.assertEqual(all_objects['Review.test_retrieval'].__dict__,
                                  d.__dict__)
+
+if __name__ == "__main__":
+    unittest.main()

@@ -2,8 +2,12 @@
 ''' unit testing for base class '''
 
 import unittest
+import os
+import io
+from datetime import datetime
+from models import storage
 from models.base_model import BaseModel
-
+from models.engine.file_storage import FileStorage
 
 class TestBaseModel(unittest.TestCase):
         ''' class for testing Base Model '''

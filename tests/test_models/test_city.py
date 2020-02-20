@@ -2,7 +2,10 @@
 ''' unit testing for City class '''
 
 import unittest
+import os
 from models.city import City
+from models.base_model import BaseModel
+from models.engine.file_storage import FileStorage
 
 
 class TestCity(unittest.TestCase):
