@@ -106,3 +106,4 @@ python3 (3.4.3)
 
 ## Authors
 David Bravo Beltran - @dbravo0
+Sergio Quiroga - @Sergioq7777
