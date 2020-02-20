@@ -10,6 +10,7 @@ from models.place import Place
 from models.review import Review
 import models
 
+
 class FileStorage:
     """
     Serialize instances in a JSON file
