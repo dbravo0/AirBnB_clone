@@ -1,6 +1,5 @@
 # AirBnB clone - The console
 
-![HBnB Logo](https://i.ibb.co/MMvC1rY/65f4a1dd9c51265f49d0.png)
 
 ## Description :page_facing_up:
 first part of the prototype clone of AirBnB.
