@@ -8,7 +8,7 @@ from models.city import City
 from models.amenity import Amenity
 from models.place import Place
 from models.review import Review
-
+import models
 
 class FileStorage:
     """
@@ -43,7 +43,7 @@ class FileStorage:
 
     def reload(self):
         """
-        Serialize the file path to the JSON file path
+        Deserialize the file path to the JSON file path
         """
         try:
             with open(self.__file_path, 'r', encoding="UTF-8") as f:

@@ -4,6 +4,7 @@
 import models
 import uuid
 from datetime import datetime
+import copy
 
 
 class BaseModel:
@@ -57,4 +58,5 @@ class BaseModel:
         my_dict["__class__"] = str(type(self).__name__)
         my_dict["created_at"] = self.created_at.isoformat()
         my_dict["updated_at"] = self.updated_at.isoformat()
+        my_dict["id"] = self.id
         return my_dict
